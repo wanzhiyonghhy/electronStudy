@@ -92,12 +92,7 @@ function createWindow () {
           });
         }
         
-      }else if(method === 'Network.getResponseBody'){
-        //if(params.response.url.startsWith('')){
-          console.log("-------Network.getResponseBodyd 返回报文-----")
-        //}
       }
-    //}
   }) 
   mainWindow.webContents.debugger.sendCommand('Network.enable');
 
